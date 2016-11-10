@@ -1,0 +1,164 @@
+html{
+	box-sizing:border-box;
+	overflow-X: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+section{
+
+}
+div{
+	
+}
+
+
+
+
+
+.Svid{
+	.container{
+		background-image: url(../img/home_bg.jpg);
+		height: 1000px;
+		width: 100%;
+		color: #FFF;
+		background-size: cover;
+		background-repeat: no-repeat;
+		text-align: center;
+		.title{
+			padding-top: 25%;
+			h1{
+				text-transform: uppercase;
+			}
+			button{
+				background: #0CABE5;
+				border: none;
+				border-radius: 20px;
+				color: white;
+			}
+		}
+	}
+	
+
+}
+
+
+.Sbrands{
+	text-align: center;
+	padding: 10%;
+	.brands{
+		margin: 0 auto;
+	}
+}
+
+.Snumbs{
+	background-color: #0CABE5;
+	color: white;
+	padding-bottom: 5%;
+	.title{
+		max-width: 60%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.numbers{
+		margin: 0 auto;
+		padding-bottom: 5%;
+	}
+	button{
+		background: #0CABE5;
+		border: 1px solid white;
+		border-radius: 20px;
+		color: white;
+		
+	}
+}
+
+
+.Ssquares{
+	color: white;
+	margin: 0 auto;
+	.shown{
+		h4{
+			
+			text-align: center;
+			text-transform: uppercase;
+			font-size: 1em;
+		}
+		span{
+
+			text-align: center;
+			font-size: .7em;
+		}
+		width: 25%;
+		height: 256px;
+		position: relative;
+		.parag{
+			margin-top: 40%;
+			
+			
+		}
+		.tile-bg{
+			z-index: -1;
+			height: 100%;
+			width: 112%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: absolute;
+			top:0%;
+			filter:brightness(50%);
+		}
+	}
+	.Dwhite{
+		color: black;
+		background: white;
+		.Pwhite{
+			margin-left: 30%;
+			background-size: cover;
+			background-position: center center;
+			max-height: 30%;
+			max-width: 30%;
+			z-index: 1;
+			filter:brightness(100%);
+		}
+	}
+}
+
+
+.Sform{
+	width: 100%;
+	padding: 10%;
+	color: white;
+	text-align: center;
+	background-image: url(../img/contact_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	
+	h4{
+		font-size: 23px;
+		padding: 2%;
+	}
+	span{
+		font-size: 16px;
+		color: #d9d9d9;
+		margin-top: 16px;
+	}
+	form{
+		width: 80%;
+		
+		div{
+			padding: 0.5%;
+			.phat{
+				height: 200px;
+			}
+		}
+		button{
+			margin-right: 50%;
+			padding: 1%;
+			background-color: #454950;
+			border: none;
+			color: #9A9EA4;
+		}
+
+	}
+}
